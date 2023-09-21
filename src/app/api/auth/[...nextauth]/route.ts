@@ -49,6 +49,9 @@ const handler = NextAuth({
     secret: process.env.JWT_SECRET,
     maxAge: 30 * 24 * 60 * 60 // 30days
   },
+  pages: {
+    signIn: '/auth/login'
+  },
   callbacks: {
     async jwt({ token, user }) {
       return {...token, ...user }
