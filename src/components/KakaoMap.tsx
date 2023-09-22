@@ -28,7 +28,7 @@ const KaKaoMap = ({
       onClick={(_, mouseEvent) => handleClick(mouseEvent)}
     >
       <MapMarker position={{ lat: latitude, lng: longitude }}>
-      </MapMarker>
+      </MapMarker> 
     </Map>
   )
 }
