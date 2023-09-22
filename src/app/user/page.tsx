@@ -1,6 +1,6 @@
 import { getServerSession } from 'next-auth';
 import React from 'react'
-import getCurrentUser from '../admin/actions/getCurrentUser';
+import getCurrentUser from '../actions/getCurrentUser';
 
 const UserPagenp = async () => {
   

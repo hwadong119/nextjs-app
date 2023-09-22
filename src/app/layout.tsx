@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import getCurrentUser from "./admin/actions/getCurrentUser";
+import getCurrentUser from "./actions/getCurrentUser";
 import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
