@@ -1,3 +1,4 @@
+// src/app/(home)/page.tsx
 import Image from 'next/image'
 import getProducts, { ProductsParams } from '../actions/getProducts'
 import Container from '@/components/Container'

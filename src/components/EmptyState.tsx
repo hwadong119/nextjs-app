@@ -1,3 +1,4 @@
+// src/components/EmptyState.tsx
 'use client'
 import React from 'react'
 import Heading from './Heading';
