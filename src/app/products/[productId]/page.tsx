@@ -4,6 +4,7 @@ import getCurrentUser from '@/app/actions/getCurrentUser';
 import getProductById from '@/app/actions/getProductById'
 import EmptyState from '@/components/EmptyState';
 import React from 'react'
+import ProductClient from './ProductClient';
 
 interface Params {
   productId?: string
@@ -21,7 +22,10 @@ const ProductPage = async ({ params }: { params: Params }) => {
   }
 
   return (
-    <div>ProductPage</div>
+    <ProductClient 
+      product={product}
+      currentUser={currentUser}
+    />
   )
 }
 
