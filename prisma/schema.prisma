@@ -93,7 +93,7 @@ model Conversation {
   senderId   String
   receiverId String
   users      User[]
-  message    Message[]
+  messages    Message[]
   createdAt  DateTime  @default(now())
 }
 
