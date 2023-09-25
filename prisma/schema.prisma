@@ -89,7 +89,7 @@ model Product {
 
 model Conversation {
   id         String    @id @default(cuid())
-  name       String
+  name       String?
   senderId   String
   receiverId String
   users      User[]

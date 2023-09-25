@@ -15,7 +15,7 @@ const User = ({ user, currentUserId }: UserProps) => {
       (user) => user.id === currentUserId)
   );
 
-  const latestMessage = messagesWithCurrentUser?.message.slice(-1)[0];
+  const latestMessage = messagesWithCurrentUser?.messages.slice(-1)[0];
 
   return (
     <div className='grid grid-cols-[40px_1fr_50px] grid-rows-[40px] gap-3 py-3 px-4 border-b-[1px] hover:cursor-pointer hover:bg-orange-500'>
